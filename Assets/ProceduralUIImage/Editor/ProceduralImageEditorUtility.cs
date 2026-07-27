@@ -10,7 +10,7 @@ namespace UnityEditor.UI {
 	/// Bahviour of this command is the same as with regular Images
 	/// </summary>
 	public class ProceduralImageEditorUtility {
-		[MenuItem("GameObject/UI/Procedural Image")]
+		[MenuItem("GameObject/UI (Canvas)/Procedural Image")]
 		public static void AddProceduralImage(){
 			GameObject o = new GameObject ();
 			o.AddComponent<ProceduralImage> ();
